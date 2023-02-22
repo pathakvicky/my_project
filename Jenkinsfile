@@ -1,5 +1,3 @@
-Cat >Jenkins
-
 pipeline {
 
     agent any
@@ -80,14 +78,11 @@ pipeline {
 
         usernamePassword {
 
-            username = "<pathakvicky>"  #Enter your Docker Hub Username
+            username = "<pathakvicky>"
 
-            password = "<vasundhara>"   #Enter your DOcker Hub Password
-
-        }
+            password = "<vasundhara>"
 
     }
 
 }
-
 
