@@ -1,13 +1,6 @@
 pipeline {
     agent any
    
-      stages{
-          stage("checkout from github"){
-             steps{
-                git url:'https://github.com/pathakvicky/my_project.git'
-                 echo 'pulled from github successfully'
-            }
-         }
     environment {
         // Set Docker Hub credentials
  	       registry = "docker.io"
